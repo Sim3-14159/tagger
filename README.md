@@ -1,5 +1,5 @@
 # Tagger
-###### Isn't it sad that that Linux computers—unlike Macs—cannot add tags to files? Without tags, sorting and finding your files is much harder. Tagger is an extremely lightweight Python-based terminal tool, for very basic file/folder sorting; built specifically for Raspberry Pis.
+###### Isn't it sad that Linux computers—unlike Macs—cannot add tags to files? Without tags, sorting and finding your files is much harder. Tagger is an extremely lightweight Python-based terminal tool, for very basic file/folder sorting, built specifically for Raspberry Pis.
 
 --- 
 
@@ -12,31 +12,14 @@ $ tagger rename Home "Home and Work"
 $ tagger tag example.txt "Home and Work"
 ```
 
+<img alt="The tagger command system" src="https://github.com/user-attachments/assets/757bec41-f59f-46af-988d-d674185f7d1c" height="500">
+
 ---
 
 ## Files
 
-```
-.
-├── src/
-│   ├── main.py
-│   └── utils.py
+<pre>
+┌── tagger.py
 ├── LICENSE
 └── README.md
-```
-
-```mermaid
----
-config:
-  layout: elk
-  theme: neutral
----
-flowchart TD
-    root[/Tagger/]
-    root --- file1(tagger.py)
-    root --- file2(LICENSE)
-    root --- file3(README.md)
-    
-    %% Styling for folder vs file look
-    style root fill:#f9f,stroke:#333,stroke-width:2px
-```
+</pre>
